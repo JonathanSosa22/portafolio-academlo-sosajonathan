@@ -288,8 +288,8 @@ a {
 
 .container__exp {
   display: flex;
+  justify-content: space-around;
   gap: 20px;
-  padding: 40px;
 }
 
 .container__exp h5 {
@@ -302,12 +302,14 @@ a {
 
 .container__exp h6 {
   font-size: 25px;
-  padding: 20px 0 0 90px;
+  padding-top: 26px;
+  padding-left: 60px;
 }
 
 .item__exp {
   display: flex;
   justify-content: center;
+  gap: 40px;
   padding: 20px;
 }
 
@@ -315,11 +317,15 @@ a {
   .item__exp {
     flex-direction: column;
   }
+  .container__exp h6 {
+    padding-left: 0;
+  }
 }
 
 /* Portafolio */
 
 .portafolio h3 {
+  padding-top: 40px;
   text-align: center;
 }
 
