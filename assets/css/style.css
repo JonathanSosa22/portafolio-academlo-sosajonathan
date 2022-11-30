@@ -56,12 +56,11 @@ a {
   .nav__bar--mobile {
     display: flex;
     justify-content: flex-end;
-    padding: 1em;
-    margin-bottom: 20px;
+    padding: 20px;
   }
   .nav__bar--mobile button {
     border: none;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     cursor: pointer;
   }
   .nav__bar--mobile i {
@@ -340,11 +339,7 @@ a {
 .port__img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 40px;
-}
-
-.port__img img {
-  padding: 20px;
+  gap: 20px;
 }
 
 .port__content {
@@ -356,6 +351,10 @@ a {
   .port__img {
     display: flex;
     flex-direction: column;
+    gap: 0;
+  }
+  .port__img img {
+    padding: 20px 0;
   }
 }
 
