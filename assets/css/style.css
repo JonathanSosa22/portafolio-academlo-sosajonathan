@@ -60,7 +60,6 @@ a {
   }
   .nav__bar--mobile button {
     border: none;
-    /* padding-right: 30px; */
     cursor: pointer;
   }
   .nav__bar--mobile i {
