@@ -235,7 +235,7 @@ a {
 
 .container__table {
   display: flex;
-  padding: 0 20%;
+  justify-content: center;
 }
 
 .My__abilities h3 {
