@@ -17,13 +17,13 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 h2,
 h3,
 h4 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 @media (max-width: 480px) {
@@ -225,7 +225,44 @@ a {
 
 /* My abilities */
 
+.container__table {
+  display: flex;
+  padding: 0 20%;
+}
+
+.My__abilities h3 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.all__tables {
+  display: flex;
+}
+
+.table__abilities {
+  background-color: #d9d5d5;
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px 5px;
+  margin: 10px;
+}
+.table_title {
+  display: flex;
+  padding: 20px 0;
+}
+.table_title img {
+  padding-right: 10px;
+}
+
+.table_title h4 {
+  font-size: 20px;
+}
+
 @media (max-width: 480px) {
+  .container__table {
+    flex-direction: column;
+    padding: 0;
+  }
   .table__abilities {
     width: 50%;
     background-color: #d9d5d5;
@@ -242,11 +279,41 @@ a {
   }
 }
 
-.My__abilities h3 {
+/* Experience */
+
+.experience h3 {
   text-align: center;
   padding: 40px 0;
 }
 
-.all__tables {
+.container__exp {
   display: flex;
+  gap: 20px;
+  padding: 40px;
 }
+
+.container__exp h5 {
+  font-size: 25px;
+}
+
+.container__exp p {
+  font-size: 15px;
+}
+
+.container__exp h6 {
+  font-size: 25px;
+  padding: 20px 0 0 90px;
+}
+
+.item__exp {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .item__exp {
+    flex-direction: column;
+  }
+}
+
+/* Portafolio */
