@@ -281,6 +281,10 @@ a {
 
 /* Experience */
 
+.experience {
+  width: 100%;
+}
+
 .experience h3 {
   text-align: center;
   padding: 40px 0;
